@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+  font-size: 1.1rem;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1578615437406-511cafe4a5c7?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* container styling */
+
+.weather-container {
+  background-color: rgba(245, 245, 245, 0.699);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 5px gray;
+}
+
+.img-weather-icon {
+  height: 80px;
+}
+
+.search-location > input {
+  height: 30px;
+  padding: 15px;
+  font-family: rubik;
+  font-size: 1.1rem;
+}
+
+.current-situation,
+.current-location,
+.temp {
+  text-transform: uppercase;
+}
+
+button {
+  padding: 5px 20px;
+  border: none;
+  background-color: whitesmoke;
+}
